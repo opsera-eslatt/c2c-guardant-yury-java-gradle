@@ -11,6 +11,7 @@ WORKDIR /java-gradle-http-hw
 COPY build.gradle .
 COPY src/ src/
 
+RUN gradle test || exit 1
 RUN gradle build
 
 CMD ["gradle", "run"]
