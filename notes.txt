@@ -1,3 +1,5 @@
+end point in eks - http://ae21ec990db64407c9e394a8b9cdcb52-1290657176.us-east-2.elb.amazonaws.com/
+
 
 docker build --no-cache -t java-gradle-http-hw .
 docker run -p 80:80 java-gradle-http-hw
